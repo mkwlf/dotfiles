@@ -7,8 +7,9 @@ ZSH_THEME="robbyrussell"
 HIST_STAMPS="yyyy-mm-dd"
 
 # oh-my-zsh plugins
-plugins=(git python pip nvm colored-man-pages docker)
+plugins=(git nvm colored-man-pages docker)
 
+# oh-my-zsh config
 source $ZSH/oh-my-zsh.sh
 
 # $PATH
@@ -32,12 +33,6 @@ source ~/.dotfiles/zsh/alias.zsh
 
 # nvm
 source ~/.dotfiles/zsh/nvm.zsh
-
-# pyenv
-source ~/.dotfiles/zsh/pyenv.zsh
-
-# phpenv
-source ~/.dotfiles/zsh/phpenv.zsh
 
 ### LOCAL Environment ###
 if [ -f ~/.dotfiles/zsh/local.zsh ]; then
