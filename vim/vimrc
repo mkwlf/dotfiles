@@ -5,16 +5,6 @@ set wildmenu
 set visualbell 		" no sounds
 set belloff=all		" no bell at all
 
-" search stuff
-set hlsearch
-set incsearch
-
-" window splits - better movement
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-
 " max textwith
 set textwidth=120
 
@@ -22,13 +12,12 @@ set textwidth=120
 set colorcolumn=+1
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-
 " tabs
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 
-" statusline todo
+" statusline
 set laststatus=2
 
 set autoindent
@@ -55,27 +44,4 @@ set sidescroll=1
 
 " backspace
 set backspace=indent,eol,start
-
-" NERDTree
-" close NERDTree when it is the last window open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-" open with ctrl-n
-map <C-n> :NERDTreeToggle<CR>
-
-"Ultisnips
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
-
-" ALE
-let g:airline#extensions#ale#enabled = 1
-
-" remap leader to space
-
-nnoremap <Space> <NOP>
-let mapleader = "\<space>"
-let maplocalleader = "\<space>"
 
