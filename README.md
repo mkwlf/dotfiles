@@ -5,7 +5,8 @@ My config on macOS and Ubuntu in WSL.
 1. clone this repo `git clone git@github.com:mkwlf/dotfiles_windows.git ~/.dotfiles`
 2. link git config `ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig`
 3. copy and edit `.gitconfig.local`: `cp ~/.dotfiles/git/gitconfig.local && vim ~/.gitconfig.local`
-4. link vim config `ln -s ~/.dotfiles/vim/vimrc ~/.vimrc`
+4. link nvim config `ln -s ~/.dotfiles/nvim ~/.config/nvim`
+5. link vim config `ln -s ~/.dotfiles/vim/vimrc ~/.vimrc`
 
 ### zsh
 1. install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -19,3 +20,8 @@ My config on macOS and Ubuntu in WSL.
 ### environments
 1. install [nvm](https://github.com/nvm-sh/nvm) for node version management
 
+## Resources
+- [neovim for newbs by cpow](https://github.com/cpow/neovim-for-newbs) [youtube series first episode](https://www.youtube.com/watch?v=zHTeCSVAFNY)
+
+## Todo 
+- [ ] use `nvim` as default editor in `git` if installed
