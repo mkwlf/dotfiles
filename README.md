@@ -24,5 +24,3 @@ My config on macOS and Ubuntu in WSL.
 ## Resources
 - [neovim for newbs by cpow](https://github.com/cpow/neovim-for-newbs) [youtube series first episode](https://www.youtube.com/watch?v=zHTeCSVAFNY)
 
-## Todo 
-- [ ] use `nvim` as default editor in `git` if installed
