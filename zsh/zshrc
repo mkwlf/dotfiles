@@ -25,9 +25,6 @@ else
   export EDITOR='mvim'
 fi
 
-### THE FUCK  ###
-eval $(thefuck --alias)
-
 ### ALIASES ###
 source ~/.dotfiles/zsh/alias.zsh
 

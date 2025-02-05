@@ -15,6 +15,10 @@ return {
 	},
 	{
 		"neovim/nvim-lspconfig",
+        dependencies = {
+            "hrsh7th/nvim-cmp",
+            "hrsh7th/cmp-nvim-lsp"
+        },
 		config = function()
             -- for completion - todo is this really needed for every lsp or any at all?
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
